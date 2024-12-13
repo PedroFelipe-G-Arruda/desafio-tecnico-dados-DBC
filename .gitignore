@@ -1,0 +1,51 @@
+# Python específico
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environment
+env/
+venv/
+*.env
+*.venv
+
+# Configurações do editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+
+# Arquivos de saída do Spark
+output/
+*.crc
+*.tmp
+*.snappy
+*.parquet
+
+# Logs
+*.log
+*.out
+*.err
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de credenciais (exemplo: MySQL ou variáveis de ambiente)
+*.ini
+*.cfg
+
+# Dados sensíveis ou temporários
+*.csv
+*.tsv
+temp/
